@@ -1,0 +1,33 @@
+/* mobile responsive */
+
+img {
+  width: 100%;
+}
+
+.header {
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding: 8px;
+  margin-bottom: 30px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pic_container {
+  width: 30%;
+  padding: 15px;
+  /* border: 2px solid black; */
+}
+
+/* desktop responsive */
+@media (min-width: 550px) {
+  body {
+    display: flex;
+  }
+
+  .header {
+    height: 50%;
+  }
+}
